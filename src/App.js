@@ -2,14 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import NavBar from './Compoents/NavBar';
-import MainContainer from './Compoents/MainContainer';
+import ItemListContainer from './Compoents/ItemListContainer';
 
 export default function App(){
 
   return (
     <>
       <NavBar/>
-      <MainContainer/>
+      <ItemListContainer/>
     </>
     );
 }
