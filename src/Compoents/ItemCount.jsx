@@ -10,7 +10,7 @@ export default function ItemCount({onAdd, stock, initial}){
             setCant(cant + 1);
     }
     function quitar(){
-        if(cant>0)
+        if(cant>initial)
             setCant(cant - 1);
     }
     return(
