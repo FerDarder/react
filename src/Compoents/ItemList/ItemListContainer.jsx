@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ItemCount from "../ItemCount";
 import Main from "../Main";
 import CustomFetch from '../Utils/CustomFetch'
-import productos from '../Utils/productos'
+import {productos} from '../Utils/productos'
 import ItemList from "./ItemList";
 
 export default function ItemListContainer(){
@@ -22,7 +22,7 @@ export default function ItemListContainer(){
         CustomFetch(3000, productos)
         .then(resultado => setItems(resultado))
         .catch(error => console.log(error))
-    }, [items])
+    },)
 
     return(
         <>

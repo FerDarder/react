@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.productoDetalle{
+  display: flex;
+  justify-content:space-around;
+  background-color:blanchedalmond;
+  padding: 15px;
+}
